@@ -2,5 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="Share" android:id="@+id/share"></item>
+    <item android:title="My Photos" android:id="@+id/myPhotos"></item>
+    <item android:title="Logout" android:id="@+id/logout"></item>
 
 </menu>
