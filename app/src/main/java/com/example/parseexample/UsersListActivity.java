@@ -75,7 +75,7 @@ public class UsersListActivity extends AppCompatActivity {
         else if(item.getItemId() == R.id.logout){
             ParseUser.logOut();
 
-            Intent intent = new Intent(getApplicationContext(),StarterApplication.class);
+            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
             startActivity(intent);
 
         }
